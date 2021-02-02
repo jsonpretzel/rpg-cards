@@ -1,7 +1,9 @@
 rpg-cards
 =========
 
-RPG spell/item/monster card generator
+RPG spell/item/monster card generator.  
+
+**This branch includes additions to the CSS and JS functions card editing options for the game Life Of The Party (https://jsonpretzel.itch.io/life-of-the-party)**
 
 Preview
 =======
