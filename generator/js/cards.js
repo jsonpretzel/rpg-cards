@@ -109,6 +109,20 @@ function card_element_subtitle(params, card_data, options) {
     return '<div class="card-element card-subtitle">' + subtitle + '</div>';
 }
 
+function card_element_italic(params, card_data, options) {
+    var italic = params[0] || "";
+    return '<div class="card-element card-italic">' + italic + '</div>';
+}
+
+function card_element_bold(params, card_data, options) {
+    var italic = params[0] || "";
+    return '<div class="card-element card-bold">' + bold + '</div>';
+}
+function card_element_italicbold(params, card_data, options) {
+    var italicbold = params[0] || "";
+    return '<div class="card-element card-italicbold">' + italicbold + '</div>';
+}
+
 function card_element_inline_icon(params, card_data, options) {
     var icon = params[0] || "";
     var size = params[1] || "40";
